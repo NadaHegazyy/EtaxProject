@@ -1,0 +1,44 @@
+
+.details{
+		margin: 30px 50px;
+}
+.title {
+	color: #707070;
+}
+.title-span{
+	display:block;
+	color:#FF725E
+}
+.form-input{
+	width:75%;
+	text-align: center;
+	border-color:#D2D2D2;
+	border-radius: 25px;
+}
+.form-input:focus-visible {
+	outline: #FF725E auto 1px;
+}
+.form-input::placeholder{
+	color: #D2D2D2;
+}
+.form-input:-webkit-autofill,
+.form-input:-webkit-autofill:hover,
+.form-input:-webkit-autofill:focus,
+.form-input:-webkit-autofill:active {
+	-webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.btn-submit {
+	margin-top: 20px;
+	width: 75%;
+	text-align: center;
+	border:none;
+	background-color: #FF725E;
+	color:white;
+	border-radius: 25px;
+	font-style: Segoe UI,
+		Regular;
+	font-size: 20px;
+	padding-top:7px;
+	padding-bottom: 10px;
+	
+}
